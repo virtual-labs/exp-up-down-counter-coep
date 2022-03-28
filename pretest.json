@@ -1,0 +1,65 @@
+{
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "The term CTU stands for:",
+        "answers": {
+          "a": "Counter Timer Unit",
+          "b": "Counter Time Up",
+          "c": "UP Counter",
+          "d": "None"
+        },
+       
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "The word 'DN' in case of counters/timers stands for:",
+        "answers": {
+          "a": "Duration bit",
+          "b": "Done bit",
+          "c": "Direction bit",
+          "d": "None"
+        },
+        
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "The overflow bit is available in:",
+        "answers": {
+          "a": "Counters",
+          "b": "Timers",
+          "c": "Both timers and counters",
+          "d": "None"
+        },
+        
+        "correctAnswer": "a",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "The accumulator bit is available in:",
+        "answers": {
+          "a": "Counters",
+          "b": "Timers",
+          "c": "Both timers and counters",
+          "d": "None"
+        },
+       
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "In which of the following applications counter block is necessary?",
+        "answers": {
+          "a": "Real time clock",
+          "b": "Bottle filling plant",
+          "c": "Automatic drilling machine",
+          "d": "None"
+        },
+        
+        "correctAnswer": "b",
+        "difficulty": "beginner"
+      }
+    ]
+  }
