@@ -1,39 +1,65 @@
 {
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "In up counter instruction the accumulated value will increase only when:",
+        "answers": {
+          "a": "There is complete transition from low to high",
+          "b": "There is complete transition from high to low",
+          "c": "Can't Say",
+          "d": "None"
+        },
+        
+        "correctAnswer": "a",
+        "difficulty": "beginner"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      {
+        "question": "In down counter instruction the accumulated value will decrease only when:",
+        "answers": {
+          "a": "There is complete transition from low to high",
+          "b": "There is complete transition from high to low",
+          "c": "Can't Say",
+          "d": "None"
+        },
+        
+        "correctAnswer": "b",
+        "difficulty": "beginner"
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+      {
+        "question": "The duration of input transition pulse is the deciding factor for counting the pulse in case of counters:",
+        "answers": {
+          "a": "True",
+          "b": "False",
+          "c": "Not always false",
+          "d": "None"
+        },
+       
+        "correctAnswer": "b",
+        "difficulty": "beginner"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      {
+        "question": "The done bit of counter changes state when:",
+        "answers": {
+          "a": "the accumulated value reaches the preset value",
+          "b": "The overflow bit is set",
+          "c": "The accumulated value reaches to overflow value",
+          "d": "None"
+        },
+        
+        "correctAnswer": "a",
+        "difficulty": "beginner"
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
-  ]
-}
+      {
+        "question": " In case of CTU the done bit status is ---- when the accumulated and preset values are equal.",
+        "answers": {
+          "a": "Close",
+          "b": "Low",
+          "c": "High",
+          "d": "None"
+        },
+        
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      }
+    ]
+  }
